@@ -6,31 +6,34 @@ header{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
-}
 
-a {
-    color: #000;
+    .img {
+        display: flex;
+        align-items: center;
+        
+        img  {
+        width: 80px;
+        }
+    }
 }
 
 .menu ul {
     display: flex;
     justify-content: center;
+
+    li {
+        margin-left: 20px;
+
+        a {
+            color: $header-text;
+        }
+    }
 }
 
-.menu li {
-    margin-left: 20px;
-}
 
 .selected {
-    color: rgb(34, 110, 211);
+    color: $comic;
 }
 .active {
-    border-bottom: 5px solid rgb(34, 110, 211);
-}
-.img {
-    display: flex;
-    align-items: center;
-}
-.img img  {
-    width: 80px;
+    border-bottom: 5px solid $comic;
 }
