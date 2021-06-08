@@ -13,9 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//homepage
+//homepage/main
+
+
 Route::get('/', function () {
-    return view('home');
+
+    $comics = config('comics.php');
+
+
+    return view('home', ['cards' => $comics]);
 })->name('home');
 
 
