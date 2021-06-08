@@ -7,7 +7,7 @@
         <nav class="menu">
             <ul>
                 <li><a class="active" href="{{ route('home')}}">Comics</a></li>
-                <li><a href="{{ route('news')}}"></a>News</li>
+                <li><a href="{{ route('news')}}">News</a></li>
     
             </ul>
         </nav>
