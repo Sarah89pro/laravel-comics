@@ -1,11 +1,13 @@
 /*MAIN STYLES*/
 
-@import 'partials/vars.scss';
-@import 'partials/default.scss';
-@import 'partials/utilities.scss';
+@import './partials/vars.scss';
+@import './partials/default.scss';
+@import './partials/utilities.scss';
 
 //SECTIONS
 @import './partials/header.scss';
+@import './partials/home.scss';
+@import './partials/footer';
 
 
 //COMPONENTS

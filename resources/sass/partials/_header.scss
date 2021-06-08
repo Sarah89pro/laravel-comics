@@ -1,0 +1,49 @@
+//Header
+header{
+    display: flex;
+    background-color: $header-bck;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        line-height: 120px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+
+        .img {
+            display: flex;
+            align-items: center;
+            
+            img  {
+            width: 80px;
+            }
+        }
+
+        .menu ul {
+            display: flex;
+            justify-content: center;
+        
+            li {
+                margin-left: 20px;
+                text-transform: uppercase;
+        
+                a {
+                    color: $header-text;
+                }
+                a:hover {
+                    color: $comic;
+                }
+            }
+        }
+
+    }
+
+}
+
+.selected {
+    color: $comic;
+}
+.active {
+    border-bottom: 5px solid $comic;
+}

@@ -1,0 +1,60 @@
+//Footer
+.blue {
+    display: flex;
+    flex-direction: row;
+    height: 12px;
+    background-color: $comic;
+}
+
+footer {
+    padding: 55px;
+    background: $footer-bck;
+    
+    /*button*/
+    button {
+        text-transform: uppercase;
+        color: $text;
+        padding: 12px;
+        background: transparent;
+        border: 3px solid  $comic;
+        position: relative;
+        bottom: 5px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    button:hover {
+    background: $header-bck;
+    color: $comic;
+}
+}
+
+/*links*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+
+    ul {
+    display: flex;
+    }
+
+    h4 {
+        text-transform: uppercase;  
+        position: relative;
+        top: 8px;
+        right: 20px;
+        color: $comic;
+    }
+
+    li {
+        margin: 0 10px;
+    }    
+     
+    .flex ul li a img {
+        width: 25px;
+    }
+
+}
+
+

@@ -12,6 +12,12 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+.container {
+  display: flex;
+  max-width: 1280px;
+  padding: 0 1.3rem;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -25,8 +31,135 @@ a {
   text-decoration: none;
 }
 
-.container {
+header {
   display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
+  background-color: #fff;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 120px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+header .container .img {
+  display: flex;
+  align-items: center;
+}
+header .container .img img {
+  width: 80px;
+}
+header .container .menu ul {
+  display: flex;
+  justify-content: center;
+}
+header .container .menu ul li {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+header .container .menu ul li a {
+  color: #4C474D;
+}
+header .container .menu ul li a:hover {
+  color: #0182F9;
+}
+
+.selected {
+  color: #0182F9;
+}
+
+.active {
+  border-bottom: 5px solid #0182F9;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero .container .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.hero .container .cards .card {
+  width: calc(100% / 6);
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.hero .container .cards .card .card-title {
+  margin-top: 10px;
+  color: #fff;
+}
+.hero .container button {
+  padding: 10px 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #0182F9;
+  border: none;
+  margin-bottom: 30px;
+  transition: 0.4s;
+  text-align: center;
+}
+.hero .container button a {
+  color: #fff;
+}
+.hero .container button:hover {
+  background-color: #fff;
+}
+.hero .container a:hover {
+  color: #0182F9;
+}
+
+.blue {
+  display: flex;
+  flex-direction: row;
+  height: 12px;
+  background-color: #0182F9;
+}
+
+footer {
+  padding: 55px;
+  background: #303030;
+  /*button*/
+}
+footer button {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px;
+  background: transparent;
+  border: 3px solid #0182F9;
+  position: relative;
+  bottom: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer button:hover {
+  background: #fff;
+  color: #0182F9;
+}
+
+/*links*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+nav ul {
+  display: flex;
+}
+nav h4 {
+  text-transform: uppercase;
+  position: relative;
+  top: 8px;
+  right: 20px;
+  color: #0182F9;
+}
+nav li {
+  margin: 0 10px;
+}
+nav .flex ul li a img {
+  width: 25px;
 }
