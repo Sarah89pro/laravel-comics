@@ -1,0 +1,43 @@
+.hero {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 100px;
+            .card {
+                width: calc(100% / 6);
+                margin-bottom: 50px;
+                cursor: pointer;
+                .card-title {
+                    margin-top: 10px;
+                    color: $text;
+                }
+            }
+        }
+
+        button {
+            cursor: pointer;
+            padding: 10px 60px;
+            text-transform: uppercase;
+            color: $text;
+            font-weight: bold;
+            background-color: $comic;
+            border: none;  
+            margin-bottom: 30px;   
+            transition: .4s;
+            text-align: center;   
+        }
+        button:hover {
+            background-color: $header-bck;
+            color: $comic;
+        }
+        
+    }
+}
+
+
