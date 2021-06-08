@@ -15,7 +15,7 @@
                     
                 @endforeach
             </div>
-            <button>Load more</button>
+            <button><a href="#">Load more</a></button>
         </div>
     </section>
 @endsection

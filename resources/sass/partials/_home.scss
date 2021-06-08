@@ -21,19 +21,24 @@
         }
 
         button {
-            cursor: pointer;
             padding: 10px 60px;
             text-transform: uppercase;
-            color: $text;
             font-weight: bold;
             background-color: $comic;
             border: none;  
             margin-bottom: 30px;   
             transition: .4s;
-            text-align: center;   
+            text-align: center;
+            
+            a {
+                color: $text;
+            }
         }
         button:hover {
             background-color: $header-bck;
+        }
+
+        a:hover {
             color: $comic;
         }
         
