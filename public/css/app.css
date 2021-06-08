@@ -1,4 +1,5 @@
 /*MAIN STYLES*/
+/*Variables Style*/
 /*GENERAL*/
 * {
   margin: 0;
@@ -42,6 +43,7 @@ header .container {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
+  /*Link Header*/
 }
 header .container .img {
   display: flex;
@@ -77,6 +79,8 @@ header .container .menu ul li a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
+  /*All Cards*/
+  /*Button*/
 }
 .hero .container .cards {
   display: flex;
