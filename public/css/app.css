@@ -35,6 +35,7 @@ a {
 header {
   display: flex;
   background-color: #fff;
+  padding-left: 55px;
 }
 header .container {
   display: flex;
@@ -79,12 +80,14 @@ header .container .menu ul li a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
   /*All Cards*/
   /*Button*/
 }
 .hero .container .cards {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 100px;
 }
