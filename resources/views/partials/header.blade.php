@@ -4,7 +4,7 @@
     </div>
     <nav class="menu">
         <ul>
-            <li><a href="{{ route('home')}}"></a></li>
+            <li><a class="active" href="{{ route('home')}}"></a></li>
             <li><a href="{{ route('news')}}"></a></li>
 
         </ul>
