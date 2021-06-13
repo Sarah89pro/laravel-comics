@@ -68,10 +68,6 @@ header .container .menu ul li a:hover {
   color: #0182F9;
 }
 
-.selected {
-  color: #0182F9;
-}
-
 .active {
   border-bottom: 5px solid #0182F9;
 }
