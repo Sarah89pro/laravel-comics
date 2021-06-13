@@ -120,16 +120,9 @@ header .container .menu ul li a:hover {
   color: #0182F9;
 }
 
-.blue {
-  display: flex;
-  flex-direction: row;
-  height: 12px;
-  background-color: #0182F9;
-}
-
 footer {
   padding: 55px;
-  background: #303030;
+  background: linear-gradient(to bottom, #0182f9 0%, #0182f9 10%, #303030 10%, #303030 100%);
   /*button*/
 }
 footer button {

@@ -5,7 +5,13 @@ $header-text: #4C474D;
 $header-bck: #fff;
 $body-bck: #1C1C1C;
 $comic: #0182F9;
-$footer-bck: #303030;
+$footer-bck: linear-gradient(
+    to bottom, 
+    #0182f9 0%,
+    #0182f9 10%,
+    #303030 10%,
+    #303030 100%
+);
 $text: #fff;
 
 //Font

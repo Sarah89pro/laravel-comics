@@ -1,7 +1,4 @@
 <!--Footer-->
-<div class="blue">
-</div>
-
 <footer>
     <div class=" container">
             <button>sign-up now!</button>
